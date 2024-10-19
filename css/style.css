@@ -1,0 +1,154 @@
+/*----------------------------------------------- font link part  ----------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main1{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    height: 50px;
+    background: #A6F6FF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+}
+.b1{
+    width: 50px;
+    height: 50px;
+    background: #A6F6FF;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+}
+.b1:hover{
+    box-shadow: 0 0 10px #A6F6FF;
+}
+.b1:active{
+    transform: scale(1.1);
+}
+.text{
+    width: 280px;
+    height: 150px;
+    background: #A6F6FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #A6F6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+}
+.result1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+}
+.result2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+}
+.b2{
+    width: 100px;
+    height: 50px;
+    background: #A6F6FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+    margin-top: 20px;
+    display: none;
+}
+.b2:hover{
+    box-shadow: 0 0 10px #A6F6FF;
+}
+.b2:active{
+    transform: scale(1.1);
+}
+.b21{
+    width: 100px;
+    height: 50px;
+    background: #A6F6FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+    margin-top: 20px;
+    display: none;
+}
+.b21:hover{
+    box-shadow: 0 0 10px #A6F6FF;
+}
+.b21:active{
+    transform: scale(1.1);
+}
+.b22{
+    width: 100px;
+    height: 50px;
+    background: #A6F6FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Afacad Flux", sans-serif;
+    color:#222831;
+    margin-top: 20px;
+    display: none;
+}
+.b22:hover{
+    box-shadow: 0 0 10px #A6F6FF;
+}
+.b22:active{
+    transform: scale(1.1);
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Afacad Flux", sans-serif;
+    color: #fff;
+}

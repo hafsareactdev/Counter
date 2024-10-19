@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!------------------------------------------- counter 1 part start ----------------------------------------------->
+    <div class="main">
+        <p class="error"></p>
+        <div class="input">
+            <input  onkeydown="inputkey0(event)" class="input0" type="number" placeholder="Enter a value">
+            <button onclick="inputclick0()" class="b1">add</button>
+        </div>
+        <div class="text">
+            <h1 class="result" data-count="100">0</h1>
+        </div>
+        <p class="info info0"></p>
+        <button class="b2 b20">Go</button>
+    </div>
+<!------------------------------------------- counter 2 part start ---------------------------------------------->
+    <div class="main main1">
+        <p class="error error1"></p>
+        <div class="input">
+            <input onkeydown="inputkey1(event)" class="input1" type="number" placeholder="Enter a value">
+            <button onclick="inputclick1()" class="b1">add</button>
+        </div>
+        <div class="text">
+            <h1 class="result1" data-count1="500">0</h1>
+        </div>
+        <p class="info1"></p>
+        <button class="b21">Go</button>
+    </div>
+<!------------------------------------------- counter 3 part start ----------------------------------------------->
+    <div class="main main2">
+        <p class="error error2"></p>
+        <div class="input">
+            <input onkeydown="inputkey2(event)" class="input2" type="number" placeholder="Enter a value">
+            <button onclick="inputclick2()" class="b1">add</button>
+        </div>
+        <div class="text">
+            <h1 class="result2" data-count2="800">0</h1>
+        </div>
+        <p class="info2"></p>
+        <button class="b22">Go</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
